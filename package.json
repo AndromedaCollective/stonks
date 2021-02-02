@@ -1,0 +1,22 @@
+{
+  "name": "stonks",
+  "version": "1.0.0",
+  "description": "stonks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndromedaCollective/stonks.git"
+  },
+  "keywords": [
+    "stonks"
+  ],
+  "author": "Andromeda Collective",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndromedaCollective/stonks/issues"
+  },
+  "homepage": "https://github.com/AndromedaCollective/stonks#readme"
+}
