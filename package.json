@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AndromedaCollective/stonks/issues"
   },
-  "homepage": "https://github.com/AndromedaCollective/stonks#readme"
+  "homepage": "https://github.com/AndromedaCollective/stonks#readme",
+  "dependencies": {
+    "react": "^17.0.1"
+  }
 }
