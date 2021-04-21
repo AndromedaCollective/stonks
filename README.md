@@ -2,7 +2,7 @@
 A stock market simulator. Fantasy trade stock investments in real time or during significant moments in the history of the stock market.  
 ## RDS Database  
 
-![Stonk Schema ER Diagram](images/schema.jpg)
+![Stonk Schema ER Diagram](images/er_diagram.jpeg)
 
 ## Getting Started with Create React App
 
