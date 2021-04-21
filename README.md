@@ -1,5 +1,9 @@
 # Stonks  
 A stock market simulator. Fantasy trade stock investments in real time or during significant moments in the history of the stock market.  
+
+## Datasets
+A preliminary dataset with historic stock data can be found [here](https://www.kaggle.com/jacksoncrow/stock-market-dataset).
+
 ## RDS Database  
 
 ![Stonk Schema ER Diagram](images/er_diagram.jpeg)
