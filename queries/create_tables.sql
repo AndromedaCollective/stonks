@@ -29,7 +29,7 @@ CREATE TABLE Transactions (
   buy_sell BOOLEAN,
   PRIMARY KEY (trans_id),
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
-  FOREIGN KEY (ticker) REFERENCES Stocks (ticker)
+  FOREIGN KEY (ticker) REFERENCES Stocks(ticker)
 );
 
 CREATE TABLE Prices (
