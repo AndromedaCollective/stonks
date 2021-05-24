@@ -2,7 +2,7 @@
 A stock market simulator. Fantasy trade stock investments in real time or during significant moments in the history of the stock market.  
 
 ## Datasets
-A preliminary dataset with historic stock data can be found [here](https://www.kaggle.com/jacksoncrow/stock-market-dataset).
+A preliminary dataset with historic stock data can be found [here](https://www.kaggle.com/jacksoncrow/stock-market-dataset). The name of this dataset and its contents remained unmodified and reside in the data folder.
 
 ## RDS Database  
 
