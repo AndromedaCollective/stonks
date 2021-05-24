@@ -1,4 +1,5 @@
 .ipynb_checkpoints
+private.txt
 stock_market_dataset/
 .alphavantagekey
 node_modules
