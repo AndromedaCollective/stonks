@@ -1,26 +1,26 @@
-CREATE TABLE Users (
+CREATE TABLE users (
   user_id INT,
   username VARCHAR[32],
   email VARCHAR[64],
   PRIMARY KEY (user_id)
 );
 
-CREATE TABLE Stocks (
+CREATE TABLE stocks (
   ticker VARCHAR[6],
   stock_name VARCHAR[100],
   PRIMARY KEY (ticker)
 );
 
-CREATE TABLE Investments (
+CREATE TABLE investments (
   user_id INT,
   ticker VARCHAR[6],
   num_shares INT,
   PRIMARY KEY (user_id, ticker),
-  FOREIGN KEY (user_id) REFERENCES Users(user_id),
-  FOREIGN KEY (ticker) REFERENCES Stocks(ticker)
+  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  FOREIGN KEY (ticker) REFERENCES stocks(ticker)
 );
 
-CREATE TABLE Transactions (
+CREATE TABLE transactions (
   trans_id INT,
   user_id INT,
   ticker VARCHAR[6],
@@ -28,11 +28,11 @@ CREATE TABLE Transactions (
   date DATE,
   buy_sell BOOLEAN,
   PRIMARY KEY (trans_id),
-  FOREIGN KEY (user_id) REFERENCES Users(user_id),
-  FOREIGN KEY (ticker) REFERENCES Stocks(ticker)
+  FOREIGN KEY (user_id) REFERENCES users(user_id),
+  FOREIGN KEY (ticker) REFERENCES stocks(ticker)
 );
 
-CREATE TABLE Prices (
+CREATE TABLE prices (
   ticker VARCHAR[6],
   date DATE,
   high DECIMAL(23,16),
@@ -42,6 +42,6 @@ CREATE TABLE Prices (
   adj_close DECIMAL(23,16),
   volume INT,
   PRIMARY KEY (ticker, date),
-  FOREIGN KEY (ticker) REFERENCES Stocks(ticker)
+  FOREIGN KEY (ticker) REFERENCES stocks(ticker)
 );
 
